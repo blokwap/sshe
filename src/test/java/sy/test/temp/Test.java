@@ -8,7 +8,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		String name = "QUERY_t#id_S_EQ";
-		String value = "2013-10-11 11:1011";
+		String value = "2013-10-11 11:10";
 
 		String[] filterParams = StringUtils.split(name, "_");
 		System.out.println(filterParams.length);
